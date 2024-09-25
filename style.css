@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.rowflex {
+    display: flex;
+}
+.block {
+    flex: 1;
+    height: auto;
+    width: max-content;
+    text-align: center;
+    border: 2px solid red;
+}

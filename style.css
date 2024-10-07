@@ -1,14 +1,26 @@
-.container {
+
+.menu-container {
     display: flex;
     flex-direction: column;
+}
+.sketch-container{
+    width: 960px;
+    height: 960px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}.page-container{
+    display: flex;
+    justify-content: space-evenly;
 }
 .rowflex {
     display: flex;
 }
 .block {
     flex: 1;
-    height: auto;
-    width: max-content;
-    text-align: center;
-    border: 2px solid red;
+    aspect-ratio: 1;
+}
+.block-hovered {
+    flex: 1;
+    aspect-ratio: 1;
 }
